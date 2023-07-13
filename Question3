@@ -1,0 +1,4 @@
+In JavaScript, the call, apply, and bind methods are used to explicitly set the value of this within a function. 
+call() method: The call method is used to invoke a function with a specified value for this and arguments passed individually. The first argument to call sets the value of this, and subsequent arguments are passed as comma-separated values. For example:
+apply() method: The apply method is similar to call, but it accepts arguments as an array or an array-like object. The first argument to apply sets the value of this, and the second argument is an array or array-like object containing the arguments to be passed to the function. For example:
+bind() method: The bind method creates a new function with a specified value for this, but it does not immediately invoke the function. Instead, it returns a new function that can be called later. bind is useful when you want to create a new function with a fixed value of this for later use. For example:
